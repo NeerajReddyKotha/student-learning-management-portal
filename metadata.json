@@ -1,0 +1,6 @@
+{
+  "name": "LMS Platform Architecture & Health Console",
+  "description": "Enterprise Learning Management System (LMS) Phase 1 foundation with Next.js frontend, Spring Boot 3 Java 21 backend, PostgreSQL database, Flyway migrations, Docker Compose, and automated health checks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

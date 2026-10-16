@@ -1,0 +1,14 @@
+package com.edunexus.dto;
+
+public record MessageResponse(
+    boolean success,
+    String message
+) {
+    public static MessageResponse ok(String message) {
+        return new MessageResponse(true, message);
+    }
+
+    public static MessageResponse error(String message) {
+        return new MessageResponse(false, message);
+    }
+}
